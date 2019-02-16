@@ -22,7 +22,7 @@ public class GUI_view extends JPanel implements ChangeListener{
 
 	public GUI_view() throws IOException {
 		
-		//Marisa's comment 
+		//Marisa's comment  
 		
 		setLayout(new BorderLayout());
 		
