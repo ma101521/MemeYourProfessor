@@ -64,8 +64,9 @@ public class GUI_view extends JPanel implements ChangeListener{
 		
 		
 		JPanel full_image = new JPanel();
+		full_image.setPreferredSize(new Dimension(400, 400));
 		full_image.setLayout(new BorderLayout());
-		ImageIcon main_image = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
+		ImageIcon main_image = new ImageIcon(new URL("https://csdl-images.computer.org/mags/mu/2007/03/figures/u3012a2.gif"));
 		JLabel main = new JLabel(main_image);
 		full_image.add(main, BorderLayout.CENTER);
 		
