@@ -25,14 +25,14 @@ public class GUI_view extends JPanel implements ChangeListener{
 		
 		JPanel thumbnails = new JPanel();
 		thumbnails.setLayout(new GridLayout(4, 2));
-		thumbnails.setPreferredSize(new Dimension(400, 300));
+		thumbnails.setPreferredSize(new Dimension(400, 400));
 		
 		
 		ImageIcon image1 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
 		JLabel thumb1 = new JLabel(image1);
 		thumbnails.add(thumb1);
 		
-		ImageIcon image2 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
+		ImageIcon image2 = new ImageIcon(new URL("https://csdl-images.computer.org/mags/mu/2007/03/figures/u3012a2.gif"));
 		JLabel thumb2 = new JLabel(image2);
 		thumbnails.add(thumb2);
 		
