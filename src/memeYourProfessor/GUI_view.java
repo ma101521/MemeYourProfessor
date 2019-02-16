@@ -76,9 +76,10 @@ public class GUI_view extends JPanel implements ChangeListener{
 		JPanel meme_options = new JPanel();
 		meme_options.setLayout(new BorderLayout());
 		JLabel scenarios = new JLabel("Meme Scenarios");
-		meme_options.add(scenarios, BorderLayout.WEST);
+		meme_options.add(scenarios, BorderLayout.CENTER);
 		String[] options = {"Option 1", "Option 2", "Option 3", "Option 4"};
 		JComboBox dropdown = new JComboBox(options);
+		dropdown.setPreferredSize(new Dimension(400, 40));
 		meme_options.add(dropdown, BorderLayout.EAST);
 		
 		
