@@ -217,10 +217,20 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		dropdown.addItemListener(new ItemListener() {
 			@Override
 			public void itemStateChanged(ItemEvent e) {
+				
 				if(e.getStateChange() == ItemEvent.SELECTED) {
-					if(thumbnail_flag == "Kris") {
+					//System.out.println(dropdown.getSelectedItem());
+					if(thumbnail_flag == "Kris" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Kris Levine.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Kris" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Kris Oprah.png"));
 						JLabel meme1Label = new JLabel(meme1);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
