@@ -213,7 +213,152 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		JLabel main = new JLabel(main_image);
 		full_image.add(main, BorderLayout.CENTER);
 		
+		BufferedImage Levine1 = null;
+		try {
+		    Levine1 = ImageIO.read(this.getClass().getResource("../Amy Levine.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dLevine1 = Levine1.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Amy_levine = new ImageIcon(dLevine1);		
 		
+BufferedImage Levine2 = null;
+		try {
+		    Levine2 = ImageIO.read(this.getClass().getResource("../Illiadis Levine.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dLevine2 = Levine2.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Illiadis_levine = new ImageIcon(dLevine2);	
+
+BufferedImage Levine3 = null;
+		try {
+		    Levine3 = ImageIO.read(this.getClass().getResource("../Joaquim Levine.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dLevine3 = Levine3.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Joaquim_levine = new ImageIcon(dLevine3);		
+
+BufferedImage Levine4 = null;
+		try {
+		    Levine4 = ImageIO.read(this.getClass().getResource("../KMP Levine.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dLevine4 = Levine4.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon KMP_levine = new ImageIcon(dLevine4);		
+
+BufferedImage Levine5 = null;
+		try {
+		    Levine5 = ImageIO.read(this.getClass().getResource("../Kris Levine.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dLevine5 = Levine5.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Kris_levine = new ImageIcon(dLevine5);	
+		
+BufferedImage Levine6 = null;
+		try {
+		    Levine6 = ImageIO.read(this.getClass().getResource("../Ng Levine.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dLevine6 = Levine6.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Ng_levine = new ImageIcon(dLevine6);		
+
+BufferedImage Levine7 = null;
+		try {
+		    Levine7 = ImageIO.read(this.getClass().getResource("../Plastiad Levine.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dLevine7 = Levine7.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Plastaid_levine = new ImageIcon(dLevine7);	
+
+BufferedImage Levine8 = null;
+		try {
+		    Levine8 = ImageIO.read(this.getClass().getResource("../Sean Levine.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dLevine8 = Levine8.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Sean_levine = new ImageIcon(dLevine8);		
+	
+
+BufferedImage Oprah1 = null;
+		try {
+		    Oprah1 = ImageIO.read(this.getClass().getResource("../KMP Oprah.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dOprah1 = Oprah1.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon KMP_Oprah = new ImageIcon(dOprah1);	
+
+
+BufferedImage Oprah2 = null;
+		try {
+		    Oprah2 = ImageIO.read(this.getClass().getResource("../Kris Oprah.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dOprah2 = Oprah2.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Kris_Oprah = new ImageIcon(dOprah2);	
+
+BufferedImage Oprah3 = null;
+		try {
+		    Oprah3 = ImageIO.read(this.getClass().getResource("../Ng Oprah.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dOprah3 = Oprah3.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Ng_Oprah = new ImageIcon(dOprah3);	
+
+BufferedImage Oprah4 = null;
+		try {
+		    Oprah4 = ImageIO.read(this.getClass().getResource("../Oprah Amy.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dOprah4 = Oprah4.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Amy_Oprah = new ImageIcon(dOprah4);	
+		
+
+BufferedImage Oprah5 = null;
+		try {
+		    Oprah5 = ImageIO.read(this.getClass().getResource("../Oprah Illiadis.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dOprah5 = Oprah5.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Illiadis_Oprah = new ImageIcon(dOprah5);	
+		
+BufferedImage Oprah6 = null;
+		try {
+		    Oprah6 = ImageIO.read(this.getClass().getResource("../Oprah Joaquin.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dOprah6 = Oprah6.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Joaquin_Oprah = new ImageIcon(dOprah6);	
+
+BufferedImage Oprah7 = null;
+		try {
+		    Oprah7 = ImageIO.read(this.getClass().getResource("../Oprah Plaistaid.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dOprah7 = Oprah7.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Plaistaid_Oprah = new ImageIcon(dOprah7);	
+		
+BufferedImage Oprah8 = null;
+		try {
+		    Oprah8 = ImageIO.read(this.getClass().getResource("../sean Oprah.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dOprah8 = Oprah8.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Sean_Oprah = new ImageIcon(dOprah8);	
 
 		
 		
