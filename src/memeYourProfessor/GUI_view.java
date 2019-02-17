@@ -28,40 +28,72 @@ public class GUI_view extends JPanel implements ChangeListener{
 		
 		JPanel thumbnails = new JPanel();
 		thumbnails.setLayout(new GridLayout(4, 2));
-		thumbnails.setPreferredSize(new Dimension(400, 400));
+		thumbnails.setPreferredSize(new Dimension(400, 500));
 		
 		
+		JPanel panel1 = new JPanel(new BorderLayout());
 		ImageIcon image1 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
 		JLabel thumb1 = new JLabel(image1);
-		thumbnails.add(thumb1);
+		JLabel caption1 = new JLabel("Kris Jordan - Comp Sci");
+		panel1.add(thumb1, BorderLayout.CENTER);
+		panel1.add(caption1, BorderLayout.SOUTH);
+		thumbnails.add(panel1);
 		
+		JPanel panel2 = new JPanel(new BorderLayout());
 		ImageIcon image2 = new ImageIcon(new URL("https://csdl-images.computer.org/mags/mu/2007/03/figures/u3012a2.gif"));
 		JLabel thumb2 = new JLabel(image2);
-		thumbnails.add(thumb2);
+		JLabel caption2 = new JLabel("KMP - Comp Sci");
+		panel2.add(thumb2, BorderLayout.CENTER);
+		panel2.add(caption2, BorderLayout.SOUTH);
+		thumbnails.add(panel2);
 		
+		JPanel panel3 = new JPanel(new BorderLayout());
 		ImageIcon image3 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
 		JLabel thumb3 = new JLabel(image3);
-		thumbnails.add(thumb3);
+		JLabel caption3 = new JLabel("Joaquin Drut - Physics");
+		panel3.add(thumb3, BorderLayout.CENTER);
+		panel3.add(caption3, BorderLayout.SOUTH);
+		thumbnails.add(panel3);
 		
+		JPanel panel4 = new JPanel(new BorderLayout());
 		ImageIcon image4 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
 		JLabel thumb4 = new JLabel(image4);
-		thumbnails.add(thumb4);
+		JLabel caption4 = new JLabel("Sean Washberg - Physics");
+		panel4.add(thumb4, BorderLayout.CENTER);
+		panel4.add(caption4, BorderLayout.SOUTH);
+		thumbnails.add(panel4);
 		
+		JPanel panel5 = new JPanel(new BorderLayout());
 		ImageIcon image5 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
 		JLabel thumb5 = new JLabel(image5);
-		thumbnails.add(thumb5);
+		JLabel caption5 = new JLabel("Amy Oldenburg - Physics");
+		panel5.add(thumb5, BorderLayout.CENTER);
+		panel5.add(caption5, BorderLayout.SOUTH);
+		thumbnails.add(panel5);
 		
+		JPanel panel6 = new JPanel(new BorderLayout());
 		ImageIcon image6 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
 		JLabel thumb6 = new JLabel(image6);
-		thumbnails.add(thumb6);
+		JLabel caption6 = new JLabel("Jack Ng - Physics");
+		panel6.add(thumb6, BorderLayout.CENTER);
+		panel6.add(caption6, BorderLayout.SOUTH);
+		thumbnails.add(panel6);
 		
+		JPanel panel7 = new JPanel(new BorderLayout());
 		ImageIcon image7 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
 		JLabel thumb7 = new JLabel(image7);
-		thumbnails.add(thumb7);
+		JLabel caption7 = new JLabel("Christian Illiadis - Physics");
+		panel7.add(thumb7, BorderLayout.CENTER);
+		panel7.add(caption7, BorderLayout.SOUTH);
+		thumbnails.add(panel7);
 		
+		JPanel panel8 = new JPanel(new BorderLayout());
 		ImageIcon image8 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
 		JLabel thumb8 = new JLabel(image8);
-		thumbnails.add(thumb8);
+		JLabel caption8 = new JLabel("David Plaisted - Comp Sci");
+		panel8.add(thumb8, BorderLayout.CENTER);
+		panel8.add(caption8, BorderLayout.SOUTH);
+		thumbnails.add(panel8);
 		
 		
 		
