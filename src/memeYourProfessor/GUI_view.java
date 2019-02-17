@@ -209,7 +209,7 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		full_image = new JPanel();
 		full_image.setPreferredSize(new Dimension(400, 400));
 		full_image.setLayout(new BorderLayout());
-		ImageIcon main_image = new ImageIcon(new URL("https://csdl-images.computer.org/mags/mu/2007/03/figures/u3012a2.gif"));
+		ImageIcon main_image = null;
 		JLabel main = new JLabel(main_image);
 		full_image.add(main, BorderLayout.CENTER);
 		
@@ -514,7 +514,7 @@ BufferedImage Oprah8 = null;
 		
 		JPanel meme_options = new JPanel();
 		meme_options.setLayout(new BorderLayout());
-		JLabel scenarios = new JLabel("When your professor...");
+		JLabel scenarios = new JLabel("When your professor...", JLabel.CENTER);
 		meme_options.add(scenarios, BorderLayout.CENTER);
 		String[] options = {"Select a Meme", "gives the most boring lecture ever", "doesn't think you have a life", "hands back your test grades", "is the GOAT"};
 		JComboBox dropdown = new JComboBox(options);
@@ -531,6 +531,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Kris" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
@@ -539,6 +540,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Kris" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
@@ -547,6 +549,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Kris" && dropdown.getSelectedItem().equals("is the GOAT")) {
 						full_image.removeAll();
@@ -555,6 +558,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
@@ -563,6 +567,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
@@ -571,6 +576,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
@@ -579,6 +585,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("is the GOAT")) {
 						full_image.removeAll();
@@ -587,6 +594,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
@@ -595,6 +603,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
@@ -603,6 +612,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
@@ -611,6 +621,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("is the GOAT")) {
 						full_image.removeAll();
@@ -619,6 +630,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
@@ -627,6 +639,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
@@ -635,6 +648,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
@@ -643,6 +657,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("is the GOAT")) {
 						full_image.removeAll();
@@ -651,6 +666,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
@@ -659,6 +675,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
@@ -667,6 +684,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
@@ -675,6 +693,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("is the GOAT")) {
 						full_image.removeAll();
@@ -683,6 +702,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
@@ -691,6 +711,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
@@ -699,6 +720,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
@@ -707,6 +729,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("is the GOAT")) {
 						full_image.removeAll();
@@ -715,6 +738,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
@@ -723,6 +747,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
@@ -731,6 +756,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
@@ -739,6 +765,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("is the GOAT")) {
 						full_image.removeAll();
@@ -747,6 +774,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
@@ -755,6 +783,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
@@ -763,6 +792,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
@@ -771,6 +801,7 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("is the GOAT")) {
 						full_image.removeAll();
@@ -779,13 +810,16 @@ BufferedImage Oprah8 = null;
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
+			            dropdown.setSelectedIndex(0);
 					}
 				}
 				if(e.getStateChange() == ItemEvent.DESELECTED) {
 					//System.out.println("deselected");
 				}
 			}
+			
 		});
+		
 		dropdown.setPreferredSize(new Dimension(400, 40));
 		meme_options.add(dropdown, BorderLayout.EAST);
 		
