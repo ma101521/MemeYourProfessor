@@ -269,7 +269,7 @@ BufferedImage Levine6 = null;
 
 BufferedImage Levine7 = null;
 		try {
-		    Levine7 = ImageIO.read(this.getClass().getResource("../Plastiad Levine.png"));
+		    Levine7 = ImageIO.read(this.getClass().getResource("../Plastaid Levine.png"));
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
@@ -344,7 +344,7 @@ BufferedImage Oprah6 = null;
 
 BufferedImage Oprah7 = null;
 		try {
-		    Oprah7 = ImageIO.read(this.getClass().getResource("../Oprah Plaistaid.png"));
+		    Oprah7 = ImageIO.read(this.getClass().getResource("../Plaistaid Oprah.png"));
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
