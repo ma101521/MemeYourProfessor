@@ -3,6 +3,10 @@ package memeYourProfessor;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
@@ -19,7 +23,7 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 //hi
 
-public class GUI_view extends JPanel implements MouseListener{
+public class GUI_view extends JPanel implements MouseListener, ItemListener{
 	
 	private JPanel full_image;
 	private String thumbnail_flag;
@@ -188,8 +192,26 @@ public class GUI_view extends JPanel implements MouseListener{
 		meme_options.setLayout(new BorderLayout());
 		JLabel scenarios = new JLabel("Meme Scenarios");
 		meme_options.add(scenarios, BorderLayout.CENTER);
-		String[] options = {"Option 1", "Option 2", "Option 3", "Option 4"};
+		String[] options = {"Select a Meme", "Option 1", "Option 2", "Option 3", "Option 4"};
 		JComboBox dropdown = new JComboBox(options);
+		dropdown.addItemListener(new ItemListener() {
+			@Override
+			public void itemStateChanged(ItemEvent e) {
+				if(e.getStateChange() == ItemEvent.SELECTED) {
+					if(thumbnail_flag == "Kris") {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Kris Levine.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+				}
+				if(e.getStateChange() == ItemEvent.DESELECTED) {
+					System.out.println("deselected");
+				}
+			}
+		});
 		dropdown.setPreferredSize(new Dimension(400, 40));
 		meme_options.add(dropdown, BorderLayout.EAST);
 		
@@ -204,33 +226,6 @@ public class GUI_view extends JPanel implements MouseListener{
 		
 	}
 
-	@Override
-	public void mouseClicked(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
 
-	@Override
-	public void mouseEntered(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
 
-	@Override
-	public void mouseExited(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void mousePressed(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void mouseReleased(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
 }
