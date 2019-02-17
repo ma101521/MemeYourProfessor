@@ -431,7 +431,7 @@ BufferedImage Oprah8 = null;
 		    e.printStackTrace();
 		}
 		Image daut8 = aut8.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
-		ImageIcon Sean_Office = new ImageIcon(daut7);		
+		ImageIcon Sean_Office = new ImageIcon(daut8);		
 		
 		
 		
@@ -527,7 +527,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Kris" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Kris Levine.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Kris_levine);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -535,7 +535,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Kris" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Kris Oprah.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Kris_Oprah);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -543,7 +543,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Kris" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Kris_Office.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Kris_Office);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -559,7 +559,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../KMP Oprah.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(KMP_Oprah);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -567,7 +567,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../KMP_Office.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(KMP_Office);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -575,7 +575,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../KMP Levine.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(KMP_levine);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -591,7 +591,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Oprah Joaquin.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Joaquin_Oprah);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -599,7 +599,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Joaquim Levine.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Joaquim_levine);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -607,7 +607,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Drut_Office.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Drut_Office);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -623,7 +623,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../sean Oprah.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Sean_Oprah);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -631,7 +631,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Sean Levine.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Sean_levine);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -639,7 +639,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Sean_Office.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Sean_Office);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -655,7 +655,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Oprah Amy.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Amy_Oprah);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -663,7 +663,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Amy Levine.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Amy_levine);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -671,7 +671,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Amy_Office.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Amy_Office);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -687,7 +687,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Ng Oprah.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Ng_Oprah);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -695,7 +695,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Ng Levine.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Ng_levine);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -703,7 +703,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Ng_Office.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Ng_Office);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -719,7 +719,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Oprah Illiadis.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Illiadis_Oprah);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -727,7 +727,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Illiadis Levine.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Illiadis_levine);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -735,7 +735,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Iliadis_Office.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Iliadis_Office);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -751,7 +751,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Plastaid Oprah.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Plaistaid_Oprah);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -759,7 +759,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Plaistaid Levine.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(Plastaid_levine);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
@@ -767,7 +767,7 @@ BufferedImage Oprah8 = null;
 					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("hands back your test grades")) {
 						full_image.removeAll();
 						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../David_Office.png"));
-						JLabel meme1Label = new JLabel(meme1);
+						JLabel meme1Label = new JLabel(David_Office);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
 			            full_image.repaint();
