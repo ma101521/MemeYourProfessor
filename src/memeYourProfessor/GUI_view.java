@@ -57,6 +57,7 @@ public class GUI_view extends JPanel implements MouseListener{
 	        }); 
 		thumbnails.add(panel1);
 		
+		
 		JPanel panel2 = new JPanel(new BorderLayout());
 		BufferedImage img2 = null;
 		try {
