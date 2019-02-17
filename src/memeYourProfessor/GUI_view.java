@@ -219,7 +219,7 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dLevine1 = Levine1.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dLevine1 = Levine1.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Amy_levine = new ImageIcon(dLevine1);		
 		
 BufferedImage Levine2 = null;
@@ -228,7 +228,7 @@ BufferedImage Levine2 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dLevine2 = Levine2.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dLevine2 = Levine2.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Illiadis_levine = new ImageIcon(dLevine2);	
 
 BufferedImage Levine3 = null;
@@ -237,7 +237,7 @@ BufferedImage Levine3 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dLevine3 = Levine3.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dLevine3 = Levine3.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Joaquim_levine = new ImageIcon(dLevine3);		
 
 BufferedImage Levine4 = null;
@@ -246,7 +246,7 @@ BufferedImage Levine4 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dLevine4 = Levine4.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dLevine4 = Levine4.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon KMP_levine = new ImageIcon(dLevine4);		
 
 BufferedImage Levine5 = null;
@@ -255,7 +255,7 @@ BufferedImage Levine5 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dLevine5 = Levine5.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dLevine5 = Levine5.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Kris_levine = new ImageIcon(dLevine5);	
 		
 BufferedImage Levine6 = null;
@@ -264,7 +264,7 @@ BufferedImage Levine6 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dLevine6 = Levine6.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dLevine6 = Levine6.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Ng_levine = new ImageIcon(dLevine6);		
 
 BufferedImage Levine7 = null;
@@ -273,7 +273,7 @@ BufferedImage Levine7 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dLevine7 = Levine7.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dLevine7 = Levine7.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Plastaid_levine = new ImageIcon(dLevine7);	
 
 BufferedImage Levine8 = null;
@@ -282,7 +282,7 @@ BufferedImage Levine8 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dLevine8 = Levine8.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dLevine8 = Levine8.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Sean_levine = new ImageIcon(dLevine8);		
 	
 
@@ -292,7 +292,7 @@ BufferedImage Oprah1 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dOprah1 = Oprah1.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dOprah1 = Oprah1.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon KMP_Oprah = new ImageIcon(dOprah1);	
 
 
@@ -302,7 +302,7 @@ BufferedImage Oprah2 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dOprah2 = Oprah2.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dOprah2 = Oprah2.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Kris_Oprah = new ImageIcon(dOprah2);	
 
 BufferedImage Oprah3 = null;
@@ -311,7 +311,7 @@ BufferedImage Oprah3 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dOprah3 = Oprah3.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dOprah3 = Oprah3.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Ng_Oprah = new ImageIcon(dOprah3);	
 
 BufferedImage Oprah4 = null;
@@ -320,7 +320,7 @@ BufferedImage Oprah4 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dOprah4 = Oprah4.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dOprah4 = Oprah4.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Amy_Oprah = new ImageIcon(dOprah4);	
 		
 
@@ -330,7 +330,7 @@ BufferedImage Oprah5 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dOprah5 = Oprah5.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dOprah5 = Oprah5.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Illiadis_Oprah = new ImageIcon(dOprah5);	
 		
 BufferedImage Oprah6 = null;
@@ -339,7 +339,7 @@ BufferedImage Oprah6 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dOprah6 = Oprah6.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dOprah6 = Oprah6.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Joaquin_Oprah = new ImageIcon(dOprah6);	
 
 BufferedImage Oprah7 = null;
@@ -348,7 +348,7 @@ BufferedImage Oprah7 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dOprah7 = Oprah7.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dOprah7 = Oprah7.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Plaistaid_Oprah = new ImageIcon(dOprah7);	
 		
 BufferedImage Oprah8 = null;
@@ -357,7 +357,7 @@ BufferedImage Oprah8 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image dOprah8 = Oprah8.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image dOprah8 = Oprah8.getScaledInstance(350, -50, Image.SCALE_SMOOTH);
 		ImageIcon Sean_Oprah = new ImageIcon(dOprah8);	
 
 		
@@ -367,7 +367,7 @@ BufferedImage Oprah8 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image daut1 = aut1.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image daut1 = aut1.getScaledInstance(400, -50, Image.SCALE_SMOOTH);
 		ImageIcon David_Office = new ImageIcon(daut1);		
 		
 		BufferedImage aut2 = null;
@@ -376,7 +376,7 @@ BufferedImage Oprah8 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image daut2 = aut2.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image daut2 = aut2.getScaledInstance(400, -50, Image.SCALE_SMOOTH);
 		ImageIcon Amy_Office = new ImageIcon(daut2);	
 		
 		BufferedImage aut3 = null;
@@ -385,7 +385,7 @@ BufferedImage Oprah8 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image daut3 = aut3.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image daut3 = aut3.getScaledInstance(400, -50, Image.SCALE_SMOOTH);
 		ImageIcon Drut_Office = new ImageIcon(daut3);		
 
 		BufferedImage aut4 = null;
@@ -394,7 +394,7 @@ BufferedImage Oprah8 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image daut4 = aut4.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image daut4 = aut4.getScaledInstance(400, -50, Image.SCALE_SMOOTH);
 		ImageIcon Iliadis_Office = new ImageIcon(daut4);
 		
 		BufferedImage aut5 = null;
@@ -403,7 +403,7 @@ BufferedImage Oprah8 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image daut5 = aut5.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image daut5 = aut5.getScaledInstance(400, -50, Image.SCALE_SMOOTH);
 		ImageIcon KMP_Office = new ImageIcon(daut5);		
 		
 		BufferedImage aut6 = null;
@@ -412,7 +412,7 @@ BufferedImage Oprah8 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image daut6 = aut6.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image daut6 = aut6.getScaledInstance(400, -50, Image.SCALE_SMOOTH);
 		ImageIcon Kris_Office = new ImageIcon(daut6);		
 		
 		BufferedImage aut7 = null;
@@ -421,7 +421,7 @@ BufferedImage Oprah8 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image daut7 = aut7.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image daut7 = aut7.getScaledInstance(400, -50, Image.SCALE_SMOOTH);
 		ImageIcon Ng_Office = new ImageIcon(daut7);		
 
 		BufferedImage aut8 = null;
@@ -430,7 +430,7 @@ BufferedImage Oprah8 = null;
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		Image daut8 = aut8.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		Image daut8 = aut8.getScaledInstance(400, -50, Image.SCALE_SMOOTH);
 		ImageIcon Sean_Office = new ImageIcon(daut8);		
 		
 		
