@@ -372,7 +372,7 @@ BufferedImage Oprah8 = null;
 		
 		BufferedImage aut2 = null;
 		try {
-		    aut2 = ImageIO.read(this.getClass().getResource("../Drut_Office.png"));
+		    aut2 = ImageIO.read(this.getClass().getResource("../Amy_Office.png"));
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
@@ -782,7 +782,7 @@ BufferedImage Oprah8 = null;
 					}
 				}
 				if(e.getStateChange() == ItemEvent.DESELECTED) {
-					System.out.println("deselected");
+					//System.out.println("deselected");
 				}
 			}
 		});
