@@ -244,6 +244,7 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 			            full_image.revalidate();
 			            full_image.repaint();
 					}
+					
 				}
 				if(e.getStateChange() == ItemEvent.DESELECTED) {
 					System.out.println("deselected");
