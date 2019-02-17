@@ -750,7 +750,7 @@ BufferedImage Oprah8 = null;
 					}
 					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
 						full_image.removeAll();
-						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Plastaid Oprah.png"));
+						//ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Plastaid Oprah.png"));
 						JLabel meme1Label = new JLabel(Plaistaid_Oprah);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
@@ -758,7 +758,7 @@ BufferedImage Oprah8 = null;
 					}
 					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
 						full_image.removeAll();
-						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Plaistaid Levine.png"));
+						//ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Plaistaid Levine.png"));
 						JLabel meme1Label = new JLabel(Plastaid_levine);
 						full_image.add(meme1Label, BorderLayout.CENTER);
 			            full_image.revalidate();
