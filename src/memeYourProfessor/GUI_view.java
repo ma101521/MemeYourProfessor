@@ -214,6 +214,64 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		full_image.add(main, BorderLayout.CENTER);
 		
 		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		BufferedImage aut1 = null;
+		try {
+		    aut1 = ImageIO.read(this.getClass().getResource("../David_Office.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image daut1 = aut1.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon David_Office = new ImageIcon(daut1);		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		JPanel meme_options = new JPanel();
