@@ -3,6 +3,7 @@ package memeYourProfessor;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.GridLayout;
+import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.IOException;
@@ -18,7 +19,7 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 //hi
 
-public class GUI_view extends JPanel implements ChangeListener{
+public class GUI_view extends JPanel implements MouseListener{
 
 	public GUI_view() throws IOException {
 		
@@ -37,6 +38,11 @@ public class GUI_view extends JPanel implements ChangeListener{
 		JLabel caption1 = new JLabel("Kris Jordan - Comp Sci");
 		panel1.add(thumb1, BorderLayout.CENTER);
 		panel1.add(caption1, BorderLayout.SOUTH);
+		panel1.addMouseListener(new MouseAdapter() { 
+	          public void mousePressed(MouseEvent me) { 
+	            System.out.println("Click works"); 
+	          } 
+	        }); 
 		thumbnails.add(panel1);
 		
 		JPanel panel2 = new JPanel(new BorderLayout());
@@ -125,6 +131,36 @@ public class GUI_view extends JPanel implements ChangeListener{
 		
 		
 		
+		
+	}
+
+	@Override
+	public void mouseClicked(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mouseEntered(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mouseExited(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mousePressed(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mouseReleased(MouseEvent arg0) {
+		// TODO Auto-generated method stub
 		
 	}
 }
