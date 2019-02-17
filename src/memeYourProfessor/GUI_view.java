@@ -272,60 +272,7 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		
 		
 		
-<<<<<<< Upstream, based on origin/master
-=======
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
->>>>>>> 5776fc1 dropdown updates, clean
+
 		
 		
 		
