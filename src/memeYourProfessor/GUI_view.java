@@ -111,7 +111,7 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		thumbnails.add(panel3);
 		
 		JPanel panel4 = new JPanel(new BorderLayout());
-		ImageIcon image4 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
+		ImageIcon image4 = new ImageIcon(new URL("https://physics.unc.edu/files/2018/04/Washburn-150x150.png"));
 		JLabel thumb4 = new JLabel(image4);
 		JLabel caption4 = new JLabel("Sean Washberg - Physics");
 		panel4.add(thumb4, BorderLayout.CENTER);
@@ -128,7 +128,7 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		thumbnails.add(panel4);
 		
 		JPanel panel5 = new JPanel(new BorderLayout());
-		ImageIcon image5 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
+		ImageIcon image5 = new ImageIcon(new URL("https://physics.unc.edu/files/2018/04/Oldenburg-150x150.jpeg"));
 		JLabel thumb5 = new JLabel(image5);
 		JLabel caption5 = new JLabel("Amy Oldenburg - Physics");
 		panel5.add(thumb5, BorderLayout.CENTER);
@@ -145,7 +145,15 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		thumbnails.add(panel5);
 		
 		JPanel panel6 = new JPanel(new BorderLayout());
-		ImageIcon image6 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
+		BufferedImage img6 = null;
+		try {
+		    img6 = ImageIO.read(new URL("https://physics.unc.edu/files/2018/04/Ng-150x150.jpg"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dimg6 = img6.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+
+		ImageIcon image6 = new ImageIcon(dimg6);
 		JLabel thumb6 = new JLabel(image6);
 		JLabel caption6 = new JLabel("Jack Ng - Physics");
 		panel6.add(thumb6, BorderLayout.CENTER);
@@ -162,7 +170,7 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		thumbnails.add(panel6);
 		
 		JPanel panel7 = new JPanel(new BorderLayout());
-		ImageIcon image7 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
+		ImageIcon image7 = new ImageIcon(new URL("https://physics.unc.edu/files/2018/04/Iliadis-150x150.jpeg"));
 		JLabel thumb7 = new JLabel(image7);
 		JLabel caption7 = new JLabel("Christian Illiadis - Physics");
 		panel7.add(thumb7, BorderLayout.CENTER);
@@ -179,7 +187,7 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		thumbnails.add(panel7);
 		
 		JPanel panel8 = new JPanel(new BorderLayout());
-		ImageIcon image8 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
+		ImageIcon image8 = new ImageIcon(new URL("https://cs.unc.edu/files/2013/12/plaisted.jpeg"));
 		JLabel thumb8 = new JLabel(image8);
 		JLabel caption8 = new JLabel("David Plaisted - Comp Sci");
 		panel8.add(thumb8, BorderLayout.CENTER);
