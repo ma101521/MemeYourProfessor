@@ -20,6 +20,8 @@ import javax.swing.event.ChangeListener;
 //hi
 
 public class GUI_view extends JPanel implements MouseListener{
+	
+	private JPanel full_image;
 
 	public GUI_view() throws IOException {
 		
@@ -41,6 +43,10 @@ public class GUI_view extends JPanel implements MouseListener{
 		panel1.addMouseListener(new MouseAdapter() { 
 	          public void mousePressed(MouseEvent me) { 
 	            System.out.println("Click works"); 
+	            full_image.removeAll();
+	            full_image.add(thumb1, BorderLayout.CENTER);
+	            full_image.revalidate();
+	            full_image.repaint();
 	          } 
 	        }); 
 		thumbnails.add(panel1);
@@ -104,7 +110,7 @@ public class GUI_view extends JPanel implements MouseListener{
 		
 		
 		
-		JPanel full_image = new JPanel();
+		full_image = new JPanel();
 		full_image.setPreferredSize(new Dimension(400, 400));
 		full_image.setLayout(new BorderLayout());
 		ImageIcon main_image = new ImageIcon(new URL("https://csdl-images.computer.org/mags/mu/2007/03/figures/u3012a2.gif"));
