@@ -192,7 +192,7 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		meme_options.setLayout(new BorderLayout());
 		JLabel scenarios = new JLabel("When your professor...");
 		meme_options.add(scenarios, BorderLayout.CENTER);
-		String[] options = {"Select a Meme", "gives the most boring lecture ever", "doesn't think you have a life", "hands back your test grades", "the GOAT"};
+		String[] options = {"Select a Meme", "gives the most boring lecture ever", "doesn't think you have a life", "hands back your test grades", "is the GOAT"};
 		JComboBox dropdown = new JComboBox(options);
 		dropdown.addItemListener(new ItemListener() {
 			@Override
