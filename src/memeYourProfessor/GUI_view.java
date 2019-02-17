@@ -62,7 +62,14 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		thumbnails.add(panel1);
 		
 		JPanel panel2 = new JPanel(new BorderLayout());
-		ImageIcon image2 = new ImageIcon(new URL("https://csdl-images.computer.org/mags/mu/2007/03/figures/u3012a2.gif"));
+		BufferedImage img2 = null;
+		try {
+		    img2 = ImageIO.read(new URL("https://csdl-images.computer.org/mags/mu/2007/03/figures/u3012a2.gif"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dimg2 = img2.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon image2 = new ImageIcon(dimg2);
 		JLabel thumb2 = new JLabel(image2);
 		JLabel caption2 = new JLabel("KMP - Comp Sci");
 		panel2.add(thumb2, BorderLayout.CENTER);
@@ -79,7 +86,15 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		thumbnails.add(panel2);
 		
 		JPanel panel3 = new JPanel(new BorderLayout());
-		ImageIcon image3 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
+		BufferedImage img3 = null;
+		try {
+		    img3 = ImageIO.read(new URL("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/215253_19775370672_6693_n.jpg?_nc_cat=106&_nc_ht=scontent-iad3-1.xx&oh=63c26226e2f5b16e8a41304cd55c28ec&oe=5CFBABB0"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image dimg3 = img3.getScaledInstance(200, -50, Image.SCALE_SMOOTH);
+
+		ImageIcon image3 = new ImageIcon(dimg3);
 		JLabel thumb3 = new JLabel(image3);
 		JLabel caption3 = new JLabel("Joaquin Drut - Physics");
 		panel3.add(thumb3, BorderLayout.CENTER);
