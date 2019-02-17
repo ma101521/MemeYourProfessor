@@ -361,27 +361,6 @@ BufferedImage Oprah8 = null;
 		ImageIcon Sean_Oprah = new ImageIcon(dOprah8);	
 
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		BufferedImage aut1 = null;
 		try {
 		    aut1 = ImageIO.read(this.getClass().getResource("../David_Office.png"));
@@ -391,6 +370,68 @@ BufferedImage Oprah8 = null;
 		Image daut1 = aut1.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
 		ImageIcon David_Office = new ImageIcon(daut1);		
 		
+		BufferedImage aut2 = null;
+		try {
+		    aut2 = ImageIO.read(this.getClass().getResource("../Drut_Office.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image daut2 = aut2.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Amy_Office = new ImageIcon(daut2);	
+		
+		BufferedImage aut3 = null;
+		try {
+		    aut3 = ImageIO.read(this.getClass().getResource("../Drut_Office.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image daut3 = aut3.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Drut_Office = new ImageIcon(daut3);		
+
+		BufferedImage aut4 = null;
+		try {
+		    aut4 = ImageIO.read(this.getClass().getResource("../Iliadis_Office.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image daut4 = aut4.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Iliadis_Office = new ImageIcon(daut4);
+		
+		BufferedImage aut5 = null;
+		try {
+		    aut5 = ImageIO.read(this.getClass().getResource("../KMP_Office.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image daut5 = aut5.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon KMP_Office = new ImageIcon(daut5);		
+		
+		BufferedImage aut6 = null;
+		try {
+		    aut6 = ImageIO.read(this.getClass().getResource("../Kris_Office.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image daut6 = aut6.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Kris_Office = new ImageIcon(daut6);		
+		
+		BufferedImage aut7 = null;
+		try {
+		    aut7 = ImageIO.read(this.getClass().getResource("../Ng_Office.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image daut7 = aut7.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Ng_Office = new ImageIcon(daut7);		
+
+		BufferedImage aut8 = null;
+		try {
+		    aut8 = ImageIO.read(this.getClass().getResource("../Sean_Office.png"));
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		Image daut8 = aut8.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
+		ImageIcon Sean_Office = new ImageIcon(daut7);		
 		
 		
 		
@@ -407,7 +448,7 @@ BufferedImage Oprah8 = null;
 		
 		
 		
-		
+
 		
 		
 		
