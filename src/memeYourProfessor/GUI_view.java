@@ -20,15 +20,10 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;import java.awt.Graphics;
-import java.awt.Image;
-import java.awt.image.BufferedImage;
-import javax.imageio.ImageIO;
-import javax.swing.Icon;
-
+import javax.swing.event.ChangeListener;
 //hi
 
-public class GUI_view extends JPanel implements MouseListener{
+public class GUI_view extends JPanel implements MouseListener, ItemListener{
 	
 	private JPanel full_image;
 	private String thumbnail_flag;
@@ -61,16 +56,8 @@ public class GUI_view extends JPanel implements MouseListener{
 	        }); 
 		thumbnails.add(panel1);
 		
-		
 		JPanel panel2 = new JPanel(new BorderLayout());
-		BufferedImage img2 = null;
-		try {
-		    img2 = ImageIO.read(new URL("https://csdl-images.computer.org/mags/mu/2007/03/figures/u3012a2.gif"));
-		} catch (IOException e) {
-		    e.printStackTrace();
-		}
-		Image dimg2 = img2.getScaledInstance(100, -50, Image.SCALE_SMOOTH);
-		ImageIcon image2 = new ImageIcon(dimg2);
+		ImageIcon image2 = new ImageIcon(new URL("https://csdl-images.computer.org/mags/mu/2007/03/figures/u3012a2.gif"));
 		JLabel thumb2 = new JLabel(image2);
 		JLabel caption2 = new JLabel("KMP - Comp Sci");
 		panel2.add(thumb2, BorderLayout.CENTER);
@@ -87,18 +74,9 @@ public class GUI_view extends JPanel implements MouseListener{
 		thumbnails.add(panel2);
 		
 		JPanel panel3 = new JPanel(new BorderLayout());
-		BufferedImage img3 = null;
-		try {
-		    img3 = ImageIO.read(new URL("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/215253_19775370672_6693_n.jpg?_nc_cat=106&_nc_ht=scontent-iad3-1.xx&oh=63c26226e2f5b16e8a41304cd55c28ec&oe=5CFBABB0"));
-		} catch (IOException e) {
-		    e.printStackTrace();
-		}
-		Image dimg3 = img3.getScaledInstance(200, -50, Image.SCALE_SMOOTH);
-
-		ImageIcon image3 = new ImageIcon(dimg3);
+		ImageIcon image3 = new ImageIcon(new URL("https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"));
 		JLabel thumb3 = new JLabel(image3);
 		JLabel caption3 = new JLabel("Joaquin Drut - Physics");
-
 		panel3.add(thumb3, BorderLayout.CENTER);
 		panel3.add(caption3, BorderLayout.SOUTH);
 		panel3.addMouseListener(new MouseAdapter() { 
@@ -212,10 +190,28 @@ public class GUI_view extends JPanel implements MouseListener{
 		
 		JPanel meme_options = new JPanel();
 		meme_options.setLayout(new BorderLayout());
-		JLabel scenarios = new JLabel("Meme Scenarios");
+		JLabel scenarios = new JLabel("When your professor...");
 		meme_options.add(scenarios, BorderLayout.CENTER);
-		String[] options = {"Option 1", "Option 2", "Option 3", "Option 4"};
+		String[] options = {"Select a Meme", "gives the most boring lecture ever", "doesn't think you have a life", "hands back your test grades", "is the GOAT"};
 		JComboBox dropdown = new JComboBox(options);
+		dropdown.addItemListener(new ItemListener() {
+			@Override
+			public void itemStateChanged(ItemEvent e) {
+				if(e.getStateChange() == ItemEvent.SELECTED) {
+					if(thumbnail_flag == "Kris") {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Kris Levine.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+				}
+				if(e.getStateChange() == ItemEvent.DESELECTED) {
+					System.out.println("deselected");
+				}
+			}
+		});
 		dropdown.setPreferredSize(new Dimension(400, 40));
 		meme_options.add(dropdown, BorderLayout.EAST);
 		
@@ -230,33 +226,6 @@ public class GUI_view extends JPanel implements MouseListener{
 		
 	}
 
-	@Override
-	public void mouseClicked(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
 
-	@Override
-	public void mouseEntered(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
 
-	@Override
-	public void mouseExited(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void mousePressed(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void mouseReleased(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
 }
