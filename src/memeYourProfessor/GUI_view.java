@@ -274,6 +274,57 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		JPanel meme_options = new JPanel();
 		meme_options.setLayout(new BorderLayout());
 		JLabel scenarios = new JLabel("When your professor...");
@@ -302,7 +353,246 @@ public class GUI_view extends JPanel implements MouseListener, ItemListener{
 			            full_image.revalidate();
 			            full_image.repaint();
 					}
-					
+					if(thumbnail_flag == "Kris" && dropdown.getSelectedItem().equals("hands back your test grades")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Kris_Office.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Kris" && dropdown.getSelectedItem().equals("is the GOAT")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Kris_Drake.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../KMP Oprah.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("hands back your test grades")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../KMP_Office.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../KMP Levine.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "KMP" && dropdown.getSelectedItem().equals("is the GOAT")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../KMP_Drake.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Oprah Joaquin.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Joaquim Levine.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("hands back your test grades")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Drut_Office.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Joaquin" && dropdown.getSelectedItem().equals("is the GOAT")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Drut_Drake.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../sean Oprah.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Sean Levine.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("hands back your test grades")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Sean_Office.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Sean" && dropdown.getSelectedItem().equals("is the GOAT")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Sean_Drake.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Oprah Amy.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Amy Levine.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("hands back your test grades")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Amy_Office.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Amy" && dropdown.getSelectedItem().equals("is the GOAT")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Amy_Drake.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Ng Oprah.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Ng Levine.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("hands back your test grades")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Ng_Office.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Jack" && dropdown.getSelectedItem().equals("is the GOAT")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Ng_Drake.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Oprah Illiadis.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Illiadis Levine.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("hands back your test grades")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Iliadis_Office.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "Christian" && dropdown.getSelectedItem().equals("is the GOAT")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Iliadis_Drake.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("doesn't think you have a life")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Plastaid Oprah.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("gives the most boring lecture ever")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../Plaistaid Levine.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("hands back your test grades")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../David_Office.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
+					if(thumbnail_flag == "David" && dropdown.getSelectedItem().equals("is the GOAT")) {
+						full_image.removeAll();
+						ImageIcon meme1 = new ImageIcon(this.getClass().getResource("../David_Drake.png"));
+						JLabel meme1Label = new JLabel(meme1);
+						full_image.add(meme1Label, BorderLayout.CENTER);
+			            full_image.revalidate();
+			            full_image.repaint();
+					}
 				}
 				if(e.getStateChange() == ItemEvent.DESELECTED) {
 					System.out.println("deselected");
